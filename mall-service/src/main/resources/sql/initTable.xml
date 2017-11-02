@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables id="initTable" name="初始化表结构">
+	<table id="">
+		<check></check>
+		<sql></sql>
+	</table>
+</tables>

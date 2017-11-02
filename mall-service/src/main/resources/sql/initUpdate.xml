@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datas id="initUpdate" name="初始化升级脚本">
+	<table id="">
+		<check></check>
+		<sql>
+		</sql>
+	</table>
+</datas>
