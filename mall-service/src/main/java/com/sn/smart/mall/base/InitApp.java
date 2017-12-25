@@ -1,4 +1,4 @@
-package com.sn.smart.mall.BASE;
+package com.sn.smart.mall.base;
 
 import java.util.List;
 
