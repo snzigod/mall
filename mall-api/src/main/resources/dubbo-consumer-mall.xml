@@ -9,6 +9,6 @@
        default-lazy-init="true" default-autowire="byName">
 
     <dubbo:reference id="demoService" interface="com.sn.smart.mall.api.DemoService"
-                     protocol="dubbo" version="${dubbo.service.version.mall}" validation="true"/>
+                     protocol="dubbo" version="${dubbo.service.version.mall}" validation="false"/>
 
 </beans>
