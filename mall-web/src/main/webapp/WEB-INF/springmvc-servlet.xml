@@ -21,6 +21,10 @@
 	<!-- 容器默认的DefaultServletHandler处理 所有静态内容与无RequestMapping处理的URL -->
 	<mvc:default-servlet-handler />
 
+	<!-- controller model配置 -->
+	<mvc:view-controller path="/" view-name="/index" />
+	<mvc:view-controller path="/demo" view-name="/demo/demo" />
+
 	<!-- 对模型视图的名称的解析 -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
