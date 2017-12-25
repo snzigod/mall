@@ -23,6 +23,11 @@
 			<version>0.0.1-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
+		<dependency>
+			<groupId>com.sn.smart.mall</groupId>
+			<artifactId>mall-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -85,9 +90,8 @@
 							<port>${jetty.port}</port>
 						</connector>
 					</connectors>
-					<!-- <webAppConfig>
-						<defaultsDescriptor>target/classes/webdefault.xml</defaultsDescriptor>
-					</webAppConfig> -->
+					<!-- <webAppConfig> <defaultsDescriptor>target/classes/webdefault.xml</defaultsDescriptor> 
+						</webAppConfig> -->
 				</configuration>
 			</plugin>
 		</plugins>
