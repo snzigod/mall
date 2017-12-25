@@ -22,29 +22,41 @@ public class DemoRest {
 
 	@Autowired
 	private DemoBiz demoBiz;
-	
+
 	@GET
-	@Path("/doGetPath/{name}")
-	public String doGetPath(@PathParam("name") String name) {
+	@Path("/getPathParam/{name}")
+	public String getPathParam(@PathParam("name") String name) {
 		return demoBiz.sayHello(name);
 	}
 
 	@GET
-	@Path("/doGetQuery")
-	public String doGetQuery(@QueryParam("name") String name) {
+	@Path("/getQueryParam")
+	public String getQueryParam(@QueryParam("name") String name) {
 		return demoBiz.sayHello(name);
 	}
-	
+
 	@GET
-	@Path("/doGetVo")
-	public String doGetVo(DemoVo vo) {
+	@Path("/getBeanParam")
+	public String getBeanParam(DemoVo vo) {
 		return demoBiz.sayHello(vo);
 	}
-	
+
 	@POST
-	@Path("/doPostForm")
+	@Path("/postFormParam")
 	public String doPostForm(@FormParam("name") String name) {
 		return demoBiz.sayHello(name);
+	}
+
+	@POST
+	@Path("/postQueryParam")
+	public String postQueryParam(@QueryParam("name") String name) {
+		return demoBiz.sayHello(name);
+	}
+
+	@GET
+	@Path("/postBeanParam")
+	public String postBeanParam(DemoVo vo) {
+		return demoBiz.sayHello(vo);
 	}
 
 }
