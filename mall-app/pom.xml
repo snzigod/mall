@@ -12,6 +12,18 @@
 	<name>mall-app</name>
 	<url>http://maven.apache.org</url>
 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<spring.version>3.2.9.RELEASE</spring.version>
+		<jersey2.version>2.6</jersey2.version>
+		<jdk.version>1.6</jdk.version>
+		<tomcat.version>2.2</tomcat.version>
+		<jetty.version>7.6.14.v20131031</jetty.version>
+		<webserver.port>8181</webserver.port>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<downloadSources>true</downloadSources>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.sn.smart</groupId>
