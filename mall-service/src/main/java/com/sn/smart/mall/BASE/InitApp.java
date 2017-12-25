@@ -1,4 +1,4 @@
-package com.sn.smart.mall;
+package com.sn.smart.mall.BASE;
 
 import java.util.List;
 
@@ -22,9 +22,9 @@ import com.sn.smart.mall.dao.ExecuteSqlDao;
  *
  */
 @Component
-public class InitApplication implements ApplicationListener<ContextRefreshedEvent> {
+public class InitApp implements ApplicationListener<ContextRefreshedEvent> {
 
-	public static final Logger logger = LoggerFactory.getLogger(InitApplication.class);
+	public static final Logger logger = LoggerFactory.getLogger(InitApp.class);
 
 	public void onApplicationEvent(ContextRefreshedEvent event) {
 		logger.info("====================Init table begin!====================");
