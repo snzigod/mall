@@ -10,7 +10,7 @@ import com.sn.smart.mall.web.biz.DemoBiz;
 import com.sn.smart.mall.web.vo.DemoVo;
 
 @Controller
-@RequestMapping("/church")
+@RequestMapping("/demo")
 public class DemoController {
 
 	@Autowired
