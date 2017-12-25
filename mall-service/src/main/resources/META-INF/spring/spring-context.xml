@@ -14,8 +14,7 @@
 	<context:property-placeholder location="classpath:application.config.properties" />
 
 	<!-- 自动搜索@Component , @Service 等标注的类 -->
-	<context:component-scan base-package="com.sn.smart.mall"
-		annotation-config="true" />
+	<context:component-scan base-package="com.sn.smart.mall" annotation-config="true" />
 
 	<!-- enable autowire -->
 	<context:annotation-config />
@@ -24,7 +23,7 @@
 	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
 		init-method="init" destroy-method="close">
 		<!-- 基本属性 url、user、password -->
-		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
 		<property name="url" value="${jdbc.url}" />
 		<property name="username" value="${jdbc.username}" />
 		<property name="password" value="${jdbc.password}" />
