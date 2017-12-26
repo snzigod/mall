@@ -19,7 +19,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.sn.smart</groupId>
-			<artifactId>smart-web-core</artifactId>
+			<artifactId>smart-web-parent</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>

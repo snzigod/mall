@@ -27,7 +27,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.sn.smart</groupId>
-			<artifactId>smart-app-core</artifactId>
+			<artifactId>smart-app-parent</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>

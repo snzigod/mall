@@ -20,7 +20,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.sn.smart</groupId>
-			<artifactId>smart-service-core</artifactId>
+			<artifactId>smart-service-parent</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>

@@ -9,4 +9,12 @@
 	<artifactId>mall-api</artifactId>
 	<name>mall-api</name>
 	<description>mall-api</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.sn.smart</groupId>
+			<artifactId>smart-core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 </project>
